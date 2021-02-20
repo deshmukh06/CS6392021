@@ -1,7 +1,0 @@
-Here is the link she is using now: https://developer.android.com/about/dashboards
-Here is the link for android documentation: https://developer.android.com/reference/androidx/appcompat/app/AppCompatActivity#setSupportActionBar(androidx.appcompat.widget.Toolbar)
-Installon Android Studio:
-Install from Android 4.0 and up
-PC google USB driver
-Android SDK Platform tools
-Google Play services
