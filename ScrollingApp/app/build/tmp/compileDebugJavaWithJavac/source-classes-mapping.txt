@@ -1,4 +1,0 @@
-com/example/scrollingapp/MainActivity.java
- com.example.scrollingapp.MainActivity
-com/example/scrollingapp/BuildConfig.java
- com.example.scrollingapp.BuildConfig

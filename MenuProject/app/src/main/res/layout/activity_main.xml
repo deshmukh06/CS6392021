@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Phone"
+        android:layout_width="178dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:onClick="call"
+        android:text="@string/btn_call"
+        app:backgroundTint="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SMS"
+        android:layout_width="178dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:onClick="text"
+        android:text="@string/btn_sms"
+        app:backgroundTint="#673AB7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phone" />
+
+    <Button
+        android:id="@+id/Map"
+        android:layout_width="178dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="32dp"
+        android:onClick="location"
+        android:text="@string/maps"
+        app:backgroundTint="#673AB7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SMS" />
+
+    <Button
+        android:id="@+id/Website"
+        android:layout_width="178dp"
+        android:layout_height="70dp"
+        android:onClick="openwebsite"
+        android:text="@string/pace_portal"
+        app:backgroundTint="#673AB7"
+        app:layout_constraintBottom_toTopOf="@+id/Share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Map"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <Button
+        android:id="@+id/Share"
+        android:layout_width="110dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="164dp"
+        android:onClick="share"
+        android:text="@string/btn_share"
+        app:backgroundTint="#CDDC39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Map" />
+
+    <Button
+        android:id="@+id/btn_activity"
+        android:layout_width="110dp"
+        android:layout_height="52dp"
+        android:onClick="newactivity"
+        android:text="@string/txt_activity"
+        app:backgroundTint="#CDDC39"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/Share"
+        app:layout_constraintTop_toBottomOf="@+id/Website"
+        app:layout_constraintVertical_bias="0.455" />
+</androidx.constraintlayout.widget.ConstraintLayout>
