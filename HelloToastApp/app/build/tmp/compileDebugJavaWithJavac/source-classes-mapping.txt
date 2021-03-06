@@ -1,0 +1,4 @@
+com/example/hellotoastapp/MainActivity.java
+ com.example.hellotoastapp.MainActivity
+com/example/hellotoastapp/BuildConfig.java
+ com.example.hellotoastapp.BuildConfig

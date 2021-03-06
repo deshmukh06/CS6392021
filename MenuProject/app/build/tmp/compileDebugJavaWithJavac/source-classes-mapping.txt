@@ -1,0 +1,8 @@
+com/example/menuproject/BuildConfig.java
+ com.example.menuproject.BuildConfig
+com/example/menuproject/HelpActivity.java
+ com.example.menuproject.HelpActivity
+com/example/menuproject/MainActivity.java
+ com.example.menuproject.MainActivity
+com/example/menuproject/NewActivity.java
+ com.example.menuproject.NewActivity
